@@ -1,0 +1,36 @@
+{
+  "name": "@tivadar/font-cdn-utils",
+  "version": "1.0.0",
+  "description": "Shared font CDN signing utilities for Tivadar projects",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf lib",
+    "prepare": "npm run build",
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "bunnycdn",
+    "cdn",
+    "fonts",
+    "signing",
+    "tivadar"
+  ],
+  "author": "Tivadar Orosz",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tivadar/font-cdn-utils.git"
+  }
+}
