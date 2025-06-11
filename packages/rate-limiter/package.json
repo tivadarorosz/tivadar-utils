@@ -1,0 +1,27 @@
+{
+  "name": "@tivadar/rate-limiter",
+  "version": "1.0.0",
+  "description": "Rate limiting utility for Cloudflare Workers with KV storage",
+  "main": "index.js",
+  "types": "lib/types.d.ts",
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "keywords": [
+    "rate-limit",
+    "cloudflare",
+    "workers",
+    "kv",
+    "api",
+    "security"
+  ],
+  "author": "Tivadar Orosz",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
