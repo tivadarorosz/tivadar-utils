@@ -1,22 +1,18 @@
 {
-  "name": "@tivadar/font-cdn-utils",
+  "name": "tivadar-utils",
   "version": "1.0.0",
-  "description": "Font CDN signing utilities for BunnyCDN",
-  "main": "packages/font-cdn-utils/index.js",
-  "types": "packages/font-cdn-utils/lib/index.d.ts",
-  "files": [
-    "packages/font-cdn-utils/**/*"
+  "private": true,
+  "description": "Shared utilities for Tivadar web projects",
+  "workspaces": [
+    "packages/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests yet\""
   },
-  "keywords": [
-    "bunnycdn",
-    "cdn",
-    "fonts",
-    "signing"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tivadarorosz/tivadar-utils.git"
+  },
   "author": "Tivadar Orosz",
-  "license": "ISC",
-  "private": true
+  "license": "UNLICENSED"
 }
